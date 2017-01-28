@@ -1,0 +1,5 @@
+[user]
+	email = matvey.gubanov@gmail.com
+	name = Matvey Gubanov
+[alias]
+	hist = log --pretty=format:'%h %ad | %s%d [%an]' --graph --date=short
