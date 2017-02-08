@@ -44,4 +44,4 @@ context.free=+free_10_min or +fun or +gtd or +linux
 context.work=+rdp or +for_work
 urgency.user.tag.remember.coefficient=6
 context.home=-work -weekend
-context=work
+context=home
