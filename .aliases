@@ -1,0 +1,10 @@
+## ls
+alias ls='ls --color=auto'
+alias ll='ls -l'
+alias la='ls -a'
+
+## packages
+alias orphans='pacaur -Rns $(pacman -Qtdq)'
+
+## dotfiles
+alias dotfiles='git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
