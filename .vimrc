@@ -13,6 +13,10 @@ set tabstop=4
 set shiftwidth=4
 set expandtab
 set showcmd
+set mouse=a
+set ttyfast
+set ttymouse=xterm2
+set clipboard=unnamed
 
 colorscheme delek
 
