@@ -10,6 +10,9 @@ export VISUAL=vim
 export EDITOR="$VISUAL"
 export WORKON_HOME=$HOME/.virtualenvs
 export PROJECT_HOME=$HOME/code/python/
+
+eval "$(thefuck --alias)"
+
 source /usr/bin/virtualenvwrapper.sh
 
 if [ -f ~/.aliases ]; then
