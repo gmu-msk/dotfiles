@@ -6,6 +6,8 @@ set -o vi
 
 [[ -z "$TMUX" ]] && exec 'tmux' '-2'
 
+HISTCONTROL=ignoreboth
+
 export VISUAL=vim
 export EDITOR="$VISUAL"
 export WORKON_HOME=$HOME/.virtualenvs
