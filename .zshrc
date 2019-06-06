@@ -7,6 +7,10 @@ HISTFILE=~/.histfile
 HISTSIZE=1000
 SAVEHIST=1000
 bindkey -e
+bindkey "\e[3~" delete-char
+bindkey  "^[[H" beginning-of-line
+bindkey  "^[[F" end-of-line
+
 # End of lines configured by zsh-newuser-install
 # The following lines were added by compinstall
 zstyle :compinstall filename '/home/matvey/.zshrc'
@@ -24,7 +28,7 @@ for COLOR in RED GREEN YELLOW BLUE MAGENTA CYAN BLACK WHITE; do
     eval BOLD_$COLOR='%{$fg_bold[${(L)COLOR}]%}'
 done
 eval RESET='%{$reset_color%}'
-# </tcolors>
+# </colors>
 
 export VISUAL=vim
 export EDITOR="$VISUAL"
