@@ -18,6 +18,7 @@ zstyle :compinstall filename '/home/matvey/.zshrc'
 autoload -Uz compinit
 compinit
 zstyle ':completion:*' menu select
+zstyle ":completion:*:commands" rehash 1
 # End of lines added by compinstall
 
 # <colors>
